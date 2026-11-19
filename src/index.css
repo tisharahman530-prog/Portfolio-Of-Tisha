@@ -8,8 +8,8 @@
 
 @layer base {
   html {
-    background-color: #0d0a14;
-    color: #f6f3fa;
+    background-color: #fdf8fb;
+    color: #1f122b;
     font-family: var(--font-sans);
     scroll-padding-top: 5rem;
   }
@@ -20,12 +20,13 @@
 }
 
 .it-women-backdrop {
-  background-color: #0d0a14;
+  background-color: #fdf8fb;
   background-image:
-    radial-gradient(ellipse 68% 44% at 86% 6%, rgba(244, 143, 177, 0.14), transparent 62%),
-    radial-gradient(ellipse 56% 42% at 12% 38%, rgba(167, 139, 250, 0.1), transparent 64%),
-    radial-gradient(rgba(244, 143, 177, 0.085) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 100%, 28px 28px;
+    radial-gradient(ellipse 68% 44% at 86% 6%, rgba(244, 114, 182, 0.16), transparent 64%),
+    radial-gradient(ellipse 58% 44% at 10% 34%, rgba(192, 132, 252, 0.13), transparent 66%),
+    radial-gradient(ellipse 50% 38% at 88% 72%, rgba(251, 182, 206, 0.14), transparent 64%),
+    radial-gradient(rgba(219, 39, 119, 0.11) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 28px 28px;
 }
 
 @keyframes marquee-scroll {

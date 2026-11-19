@@ -23,18 +23,18 @@ export function ResilientImage({
       <div
         role="img"
         aria-label={alt}
-        className={`flex flex-col items-center justify-center bg-gradient-to-br from-[#1C162E] via-[#161224] to-[#100D1B] p-6 text-center border border-white/[0.06] ${className}`}
+        className={`flex flex-col items-center justify-center bg-gradient-to-br from-[#FDF2F8] via-[#FBF5FC] to-[#F5F3FF] p-6 text-center border border-[#EEDCE8] ${className}`}
       >
-        <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-[#F48FB1]">
+        <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl border border-[#E5CFE0] bg-white text-[#BE185D]">
           <Code2 className="h-5 w-5" aria-hidden="true" />
         </div>
         {fallbackTitle && (
-          <p className="font-display text-sm font-semibold text-[#F6F3FA] tracking-tight">
+          <p className="font-display text-sm font-semibold text-[#1F122B] tracking-tight">
             {fallbackTitle}
           </p>
         )}
         {fallbackSubtitle && (
-          <p className="mt-1 text-xs text-[#9E95B3]">{fallbackSubtitle}</p>
+          <p className="mt-1 text-xs text-[#736084]">{fallbackSubtitle}</p>
         )}
       </div>
     );

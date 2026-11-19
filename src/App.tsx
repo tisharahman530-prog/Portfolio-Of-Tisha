@@ -11,7 +11,7 @@ import { ContactSection } from './components/ContactSection';
 export default function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <div className="it-women-backdrop min-h-screen text-[#F6F3FA]">
+      <div className="it-women-backdrop min-h-screen text-[#1F122B]">
         <Navbar />
         <main>
           <HeroSection />
