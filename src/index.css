@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    background-color: #0d0a14;
+    color: #f6f3fa;
+    font-family: var(--font-sans);
+    scroll-padding-top: 5rem;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.it-women-backdrop {
+  background-color: #0d0a14;
+  background-image:
+    radial-gradient(ellipse 68% 44% at 86% 6%, rgba(244, 143, 177, 0.14), transparent 62%),
+    radial-gradient(ellipse 56% 42% at 12% 38%, rgba(167, 139, 250, 0.1), transparent 64%),
+    radial-gradient(rgba(244, 143, 177, 0.085) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 28px 28px;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 34s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-marquee {
+    animation: none;
+  }
+}
+

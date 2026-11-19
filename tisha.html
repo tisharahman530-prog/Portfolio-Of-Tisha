@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MST Tisha Rahman — Software Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of MST Tisha Rahman, Department of Software Engineering — featuring projects, technical skills, verified certificates, and news."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="it-women-backdrop">
+    <!-- Top Navigation Bar -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand-wordmark">MST Tisha Rahman</a>
+
+        <nav class="desktop-nav" aria-label="Primary Navigation">
+          <a href="#news" class="nav-link">Updates</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#certificates" class="nav-link">Certificates</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#contact" class="btn btn-primary btn-sm header-cta">Get in Touch</a>
+          <button
+            type="button"
+            id="mobile-menu-toggle"
+            class="mobile-menu-btn"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+            aria-label="Open navigation menu"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-drawer" class="mobile-drawer" hidden>
+        <nav aria-label="Mobile Navigation" class="mobile-nav-list">
+          <a href="#news" class="mobile-nav-link">Updates</a>
+          <a href="#education" class="mobile-nav-link">Education</a>
+          <a href="#skills" class="mobile-nav-link">Skills</a>
+          <a href="#projects" class="mobile-nav-link">Projects</a>
+          <a href="#certificates" class="mobile-nav-link">Certificates</a>
+          <a href="#contact" class="btn btn-primary mobile-cta">Get in Touch</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-backdrop-art" aria-hidden="true">
+          <div class="hero-glow"></div>
+          <svg
+            class="hero-circuit-svg"
+            viewBox="0 0 800 600"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M120 80 H320 L380 140 H620 L680 200 V360" stroke="#F48FB1" stroke-width="1" />
+            <path d="M210 520 H410 L470 460 H710" stroke="#C4B5FD" stroke-width="1" />
+            <path d="M480 40 V190 L540 250 H760" stroke="#F48FB1" stroke-width="0.8" stroke-dasharray="4 6" />
+            <circle cx="320" cy="80" r="4" fill="#F48FB1" />
+            <circle cx="620" cy="140" r="4" fill="#C4B5FD" />
+            <circle cx="680" cy="360" r="4" fill="#F48FB1" />
+            <circle cx="470" cy="460" r="4" fill="#C4B5FD" />
+            <circle cx="540" cy="250" r="3.5" fill="#F48FB1" />
+            <rect x="555" y="85" width="170" height="170" rx="24" stroke="#F48FB1" stroke-opacity="0.45" stroke-width="1" />
+          </svg>
+        </div>
+
+        <div class="container hero-container">
+          <div class="hero-grid">
+            <div class="hero-copy reveal">
+              <div>
+                <p class="section-kicker">Department of Software Engineering</p>
+                <h1 class="hero-title">
+                  Engineering resilient software systems with human clarity.
+                </h1>
+                <p class="hero-bio">
+                  I'm <strong>MST Tisha Rahman</strong> — Undergraduate researcher and software
+                  engineer in the Department of Software Engineering. I design modular web
+                  applications, clean RESTful architectures, and accessible dark-mode interfaces
+                  built for reliability and speed.
+                </p>
+
+                <div class="hero-cta-row">
+                  <a href="#projects" class="btn btn-primary">
+                    Explore Projects
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M7 7l10 10M17 7v10H7" />
+                    </svg>
+                  </a>
+
+                  <a href="#contact" class="btn btn-secondary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F48FB1" stroke-width="2" aria-hidden="true">
+                      <rect width="20" height="16" x="2" y="4" rx="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    Contact Me
+                  </a>
+
+                  <a href="#certificates" class="btn btn-secondary">
+                    View Certificates
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#B6ADC7" stroke-width="2" aria-hidden="true">
+                      <path d="M7 17 17 7M7 7h10v10" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="hero-meta-row">
+                <span>Software Engineer &amp; Full-Stack Builder</span>
+                <span aria-hidden="true">·</span>
+                <span>Dhaka, Bangladesh</span>
+                <span aria-hidden="true">·</span>
+                <a href="mailto:tisharahman530@gmail.com" class="hero-email-link">
+                  tisharahman530@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-portrait-wrap reveal">
+              <div class="portrait-card">
+                <img
+                  src="/assets/aistudio/Tisha_ce438a3a.jpeg"
+                  alt="MST Tisha Rahman, Department of Software Engineering"
+                  class="portrait-img"
+                />
+                <div class="portrait-scrim" aria-hidden="true"></div>
+                <div class="portrait-caption">
+                  <p class="portrait-name">MST Tisha Rahman</p>
+                  <p class="portrait-sub">Department of Software Engineering · Portfolio 2026</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4-Column Metrics Strip -->
+          <div class="metrics-grid reveal">
+            <div class="metric-card">
+              <p class="metric-value">02</p>
+              <p class="metric-label">Shipped Projects</p>
+              <p class="metric-detail">Library &amp; AI Assistant</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-value">03</p>
+              <p class="metric-label">Verified Certificates</p>
+              <p class="metric-detail">CS301, CS202 &amp; SQL</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-value">07</p>
+              <p class="metric-label">Core Technologies</p>
+              <p class="metric-detail">C, Java, SQL, Web &amp; Algo</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric-value">SWE</p>
+              <p class="metric-label">Department Focus</p>
+              <p class="metric-detail">Systems &amp; Web Architecture</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marquee Divider -->
+        <div class="marquee-bar" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Software Engineering</span><span class="marquee-dot">·</span>
+            <span>Language C</span><span class="marquee-dot">·</span>
+            <span>Language Java</span><span class="marquee-dot">·</span>
+            <span>SQL Databases</span><span class="marquee-dot">·</span>
+            <span>HTML &amp; CSS</span><span class="marquee-dot">·</span>
+            <span>JavaScript</span><span class="marquee-dot">·</span>
+            <span>Algorithms</span><span class="marquee-dot">·</span>
+            <span>Software Engineering</span><span class="marquee-dot">·</span>
+            <span>Language C</span><span class="marquee-dot">·</span>
+            <span>Language Java</span><span class="marquee-dot">·</span>
+            <span>SQL Databases</span><span class="marquee-dot">·</span>
+            <span>HTML &amp; CSS</span><span class="marquee-dot">·</span>
+            <span>JavaScript</span><span class="marquee-dot">·</span>
+            <span>Algorithms</span><span class="marquee-dot">·</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 01. New / Recent Updates -->
+      <section id="news" class="section-block">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-kicker">01. Recent Activity</p>
+              <h2 class="section-title">New / Recent Updates</h2>
+            </div>
+
+            <div class="filter-tabs" role="tablist" aria-label="Filter recent updates by type">
+              <button type="button" class="filter-tab active" data-update-filter="All">All</button>
+              <button type="button" class="filter-tab" data-update-filter="Project">Project</button>
+              <button type="button" class="filter-tab" data-update-filter="Certificate">Certificate</button>
+            </div>
+          </div>
+
+          <div id="updates-list" class="updates-list"></div>
+        </div>
+      </section>
+
+      <!-- 02. Education -->
+      <section id="education" class="section-block">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-kicker">02. Academic Background</p>
+              <h2 class="section-title">Education</h2>
+            </div>
+            <p class="section-desc">
+              Formal academic training in software engineering, computational theory, and science
+              foundations.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card reveal">
+              <div>
+                <div class="card-top-meta">
+                  <span>Undergraduate Degree</span>
+                  <span class="accent-icon" aria-hidden="true">🎓</span>
+                </div>
+                <h3 class="card-title">Bachelor of Science (B.Sc.) in Software Engineering</h3>
+                <p class="card-subtitle">Daffodil International University</p>
+              </div>
+              <p class="card-footer-note">
+                Software Architecture, Algorithms, Database Systems &amp; Web Engineering
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div>
+                <div class="card-top-meta">
+                  <span>Higher Secondary</span>
+                  <span class="accent-icon" aria-hidden="true">🎓</span>
+                </div>
+                <h3 class="card-title">Higher Secondary Certificate (HSC)</h3>
+                <p class="card-subtitle">Milestone College</p>
+              </div>
+              <p class="card-footer-note">
+                Science Division — Mathematics, Physics &amp; Information Technology
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div>
+                <div class="card-top-meta">
+                  <span>Secondary Education</span>
+                  <span class="accent-icon" aria-hidden="true">🎓</span>
+                </div>
+                <h3 class="card-title">Secondary School Certificate (SSC)</h3>
+                <p class="card-subtitle">Milestone College</p>
+              </div>
+              <p class="card-footer-note">
+                Science Division — Core Analytical &amp; Quantitative Foundations
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03. Technical Skills -->
+      <section id="skills" class="section-block">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-kicker">03. Technical Skills</p>
+              <h2 class="section-title">Core Stack &amp; Engineering Foundations</h2>
+            </div>
+
+            <div class="filter-tabs" role="tablist" aria-label="Filter skills by category">
+              <button type="button" class="filter-tab active" data-skill-filter="All">All</button>
+              <button type="button" class="filter-tab" data-skill-filter="Programming Languages">
+                Programming Languages
+              </button>
+              <button type="button" class="filter-tab" data-skill-filter="Web Technologies">
+                Web Technologies
+              </button>
+              <button type="button" class="filter-tab" data-skill-filter="Database & Logic">
+                Database &amp; Logic
+              </button>
+            </div>
+          </div>
+
+          <div id="skills-grid" class="grid-3"></div>
+        </div>
+      </section>
+
+      <!-- 04. Projects -->
+      <section id="projects" class="section-block">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-kicker">04. Selected Engineering Work</p>
+              <h2 class="section-title">Projects &amp; Software Architecture</h2>
+            </div>
+
+            <div class="filter-tabs" role="tablist" aria-label="Filter projects by discipline">
+              <button type="button" class="filter-tab active" data-project-filter="All Projects">
+                All Projects
+              </button>
+              <button type="button" class="filter-tab" data-project-filter="Web & AI">
+                Web &amp; AI
+              </button>
+              <button type="button" class="filter-tab" data-project-filter="Systems & Database">
+                Systems &amp; Database
+              </button>
+            </div>
+          </div>
+
+          <div id="projects-grid" class="grid-2"></div>
+        </div>
+      </section>
+
+      <!-- 05. Certificates -->
+      <section id="certificates" class="section-block">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-kicker">05. Verified Credentials</p>
+              <h2 class="section-title">Certificates &amp; Academic Honors</h2>
+            </div>
+            <p class="section-desc">
+              Select any certificate below to view the full credential image, issuer details, and
+              verified certificate ID.
+            </p>
+          </div>
+
+          <div id="certificates-grid" class="grid-3"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 06. Contact & Footer -->
+    <footer id="contact" class="site-footer">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="section-kicker">06. Contact &amp; Collaboration</p>
+            <h2 class="section-title">Let's build dependable software together.</h2>
+            <p class="contact-lead">
+              Open to software engineering internships, research collaborations, and full-stack
+              web development opportunities. Reach out directly via email or send a quick note.
+            </p>
+
+            <div class="contact-actions">
+              <div class="contact-row">
+                <a href="mailto:tisharahman530@gmail.com" class="contact-chip">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F48FB1" stroke-width="2" aria-hidden="true">
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                  tisharahman530@gmail.com
+                </a>
+
+                <button type="button" id="copy-email-btn" class="contact-chip contact-chip-sm">
+                  Copy Email
+                </button>
+              </div>
+
+              <div class="contact-row">
+                <a
+                  href="https://www.facebook.com/tisha.rahman.90281"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="contact-chip"
+                >
+                  <svg viewBox="0 0 24 24" fill="#1877F2" width="16" height="16" aria-hidden="true">
+                    <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z" />
+                  </svg>
+                  Facebook
+                </a>
+
+                <a
+                  href="https://wa.me/8801715167861"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="contact-chip"
+                >
+                  <svg viewBox="0 0 24 24" fill="#25D366" width="16" height="16" aria-hidden="true">
+                    <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.375c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.813 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.031-1.313-5-4.375-5.156-4.578-.156-.203-1.234-1.641-1.234-3.125s.781-2.219 1.063-2.516c.281-.297.609-.375.813-.375.203 0 .406 0 .578.016.188.016.438-.078.688.516.25.609.859 2.094.938 2.25.078.156.125.344.031.547-.094.203-.141.328-.297.5-.156.172-.313.391-.453.516-.156.141-.313.297-.141.594.172.297.781 1.281 1.672 2.078 1.156 1.031 2.125 1.344 2.422 1.5.297.156.469.125.641-.078.172-.203.75-.875.953-1.172.203-.297.406-.25.672-.156.266.094 1.719.813 2.016.953.297.141.484.219.563.344.078.125.078.734-.172 1.438z" />
+                  </svg>
+                  <span class="mono-num">01715167861</span>
+                </a>
+              </div>
+
+              <div class="social-links-row">
+                <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+                <span aria-hidden="true">·</span>
+                <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact-name">Your Name</label>
+                  <input
+                    id="contact-name"
+                    type="text"
+                    required
+                    placeholder="e.g. Dr. Anika Rahman"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="contact-email">Email Address</label>
+                  <input
+                    id="contact-email"
+                    type="email"
+                    required
+                    placeholder="name@organization.com"
+                  />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="contact-message">Project or Inquiry Details</label>
+                <textarea
+                  id="contact-message"
+                  rows="4"
+                  required
+                  placeholder="Share details about the role, project, or collaboration..."
+                ></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+            </form>
+
+            <div id="contact-success" class="contact-success" hidden>
+              <div class="success-badge">✓</div>
+              <h3>Message Prepared</h3>
+              <p>
+                Thank you for reaching out. You can also connect directly at
+                <a href="mailto:tisharahman530@gmail.com">tisharahman530@gmail.com</a>.
+              </p>
+              <button type="button" id="reset-form-btn" class="btn btn-secondary btn-sm">
+                Send Another Note
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 MST Tisha Rahman · Department of Software Engineering</p>
+          <nav aria-label="Footer Navigation" class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#news">Updates</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Shared Detail Lightbox Modal -->
+    <div id="detail-modal" class="modal-overlay" role="dialog" aria-modal="true" hidden>
+      <div class="modal-card">
+        <button
+          type="button"
+          id="modal-close-btn"
+          class="modal-close-btn"
+          aria-label="Close modal"
+        >
+          ✕
+        </button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
